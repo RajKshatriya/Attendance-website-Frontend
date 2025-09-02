@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NKT Coding Club</title>
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo"><a href='#Reload'>NKT Coding Club</a></div>
+            <div class="nav-links">
+                <a href="#Home">Home</a>
+                <a href="#Project">Project</a>
+                <a href="#about">About</a>
+                <a href="#" class="cta-button">Admin Login</a>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="mobile-nav" id="mobileNav">
+            <a href="#Home">Home</a>
+            <a href="#Project">Project</a>
+            <a href="#about">About</a>
+            <a href="#" class="adminlogin">Admin Login</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-backgrounds">
+            <div class="hero-bg active"></div>
+            <div class="hero-bg"></div>
+            <div class="hero-bg"></div>
+        </div>
+        <div class="hero-content">
+            <h1>Shaping the future, One Line of Code at a Time</h1>
+            <p class="hero-subtitle">Join NKT Coding Club and explore coding, projects,<br>and innovation with like- minded tech enthusiasts.</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="Team" id="Team">
+        <div class="Team-header">
+            <div class="Team-header">
+                <h2>Build Your Skill </h2>
+                <p class="Team-subtitle">Powerful Team designed to streamline your career and boost your coding skills</p>
+            </div>
+            
+            <div class="Team-layout">
+                <!-- Four Column Features -->
+                <div class="features-two-col">
+                    <div class="feature-card-large">
+                        <div class="feature-icon">📺</div>
+                        <h3>Frontend Team</h3>
+                        <p>Crafts visually stunning and user-friendly interfaces, bringing our application to life with seamless interactions and engaging experiences.</p>
+                        <ul class="feature-checklist">
+                            <li>Responsive Design</li>
+                            <li>User Experience (UX)</li>
+                            <li>Performance Optimization</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card-large">
+                        <div class="feature-icon">⚙️</div>
+                        <h3>Backend Team</h3>
+                        <p>Crafts a robust and scalable infrastructure, ensuring seamless data flow and security for our application's growth.</p>
+                        <ul class="feature-checklist">
+                            <li>API Development</li>
+                            <li>Security Measures</li>
+                            <li>Scalability</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card-large">
+                        <div class="feature-icon">🛢️</div>
+                        <h3>Database Team</h3>
+                        <p>Team designs and optimizes data storage solutions, ensuring data integrity, security, and efficient retrieval for seamless application performance.</p>
+                        <ul class="feature-checklist">
+                            <li>Data Modeling</li>
+                            <li>Data Security</li>
+                            <li>Query Optimization</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card-large">
+                        <div class="feature-icon">🤖</div>
+                        <h3>AI Team</h3>
+                        <p>Develops intelligent solutions that drive innovation and enhance user experience through machine learning and data-driven insights.</p>
+                        <ul class="feature-checklist">
+                            <li>Model Development</li>
+                            <li>Data Integration</li>
+                            <li>Model Maintenance</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Four Column Features -->
+                <div class="features-four-col">
+                    <div class="feature-card-small">
+                        <div class="feature-icon-small">💻</div>
+                        <h4>Project-Based Learning</h4>
+                        <p>Encourage members to work on real-world projects to apply coding skills and learn by doing.</p>
+                    </div>
+                    <div class="feature-card-small">
+                        <div class="feature-icon-small">🤝</div>
+                        <h4>Mentorship and Support</h4>
+                        <p>Provide guidance and support from experienced coders or industry professionals to help members improve their skills.</p>
+                    </div>
+                    <div class="feature-card-small">
+                        <div class="feature-icon-small">👥</div>
+                        <h4>Community Engagement</h4>
+                        <p>Foster a sense of community through regular meetups, hackathons, and coding challenges to keep members engaged and motivated.Automatic syncing across all devices with conflict resolution.</p>
+                    </div>
+                    <div class="feature-card-small">
+                        <div class="feature-icon-small">📚</div>
+                        <h4>Skill Development</h4>
+                        <p>Offer workshops, tutorials, and resources to help members develop new coding skills and stay up-to-date with industry trends.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2>Get in Touch</h2>
+                <p class="contact-subtitle">Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <div class="form-header">
+                        <h3>Send us a Message</h3>
+                        <p>Fill out the form below and our team will get back to you within 24 hours.</p>
+                    </div>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" placeholder="Johnny Sins" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" placeholder="johnny@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">College Name</label>
+                            <input type="text" id="company" placeholder="Your College (Optional)">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">How can we help?</label>
+                            <select id="subject">
+                                <option value="">Select a Topic</option>
+                                <option value="Website Crash">Website Crash</option>
+                                <option value="Technical support">Technical Support</option>
+                                <option value="Not working">Button not working</option>
+                                <option value="login error">Login Failed</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="9" placeholder="Tell us more about your needs..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <div class="quick-contact">
+                        <h3>Quick Contact</h3>
+                        <div class="contact-methods">
+                            <a href="#" class="contact-method">
+                                <span class="method-icon">📧</span>
+                                <div class="method-details">
+                                    <strong>Email Us</strong>
+                                    <span>nkttdg@yahoo.co.in</span>
+                                </div>
+                            </a>
+                            <a href="#" class="contact-method">
+                                <span class="method-icon">💬</span>
+                                <div class="method-details">
+                                    <strong>Live Chat</strong>
+                                    <span>Available 24/7</span>
+                                </div>
+                            </a>
+                            <a href="tel:+15551234567" class="contact-method">
+                                <span class="method-icon">📱</span>
+                                <div class="method-details">
+                                    <strong>Call Us</strong>
+                                    <span>022-25431119</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="office-locations">
+                        <h3>Our Offices</h3>
+                        <div class="location-grid">
+                            <div class="location">
+                                <strong>Thane</strong>
+                                <p>MMS4, C wing<br>Nkt college campus, Thane west-400601</p>
+                            </div>
+                            <!-- <div class="location">
+                                <strong>🇬🇧 London</strong>
+                                <p>45 Fleet Street<br>London EC4Y 1BJ</p>
+                            </div>
+                            <div class="location">
+                                <strong>🇸🇬 Singapore</strong>
+                                <p>1 Raffles Place<br>Tower 1, #40-02</p>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">NKT Coding Club</div>
+                    <p>Empowering coders, shaping futures.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Home</h4>
+                        <a href="#">Navbar</a>
+                        <a href="#">Herosection</a>
+                        <a href="#">footer</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Vision</h4>
+                        <a href="#">Skill Development and Learning</a>
+                        <a href="#">Collaboration and Community</a>
+                        <a href="#">Innovation and Creativity</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <a href="#">Documentation</a>
+                        <a href="#">API Reference</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NKT Coding Club. All rights reserved. | Designed by <a href="#" target="_blank">Raj Kshatriya</a></p>
+                <div class="social-links">
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
